@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+}
+.background{
+    background-image: url(./Form\ Img.jpg);
+    height: 849px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main-container{
+    margin-top: -20%;
+}
+.part1{
+    height: 849px;
+    width: 700px;
+    margin-left: 20%;
+    background-color: rgba(255, 255, 255, 0.747);
+    box-shadow: 0px 0px 10px black;
+    border-radius: 0px 100px 0px 100px;
+}
+.part1 img{
+    height: 300px;
+    margin-left: 170px;
+}
+.register{
+    width: 25%;
+    margin: auto;
+    color: navy;
+    margin-top: -5%;
+    padding: 5px 40px 5px 40px;
+    border-radius: 50px 50px 50px 50px;
+    box-shadow: 0px 0px 10px black;
+    text-align: center;
+}
+.text-number{
+    font-size: 10px;
+    margin-top: 40px;;
+    margin-left: 10%;
+    color: navy;
+}
+.phone input{
+    font-size: 20px;
+    font-weight: bold;
+    color: navy;
+    height: 40px;
+    width: 80%;
+    margin-left: 9%;
+    border-radius: 50px 50px 50px 50px;
+    box-shadow: 0px 0px 10px black;
+    border: none;
+    background-color: transparent;
+}
+.phone input:hover{
+    box-shadow: 0px 0px 15px black;
+}
+
+.Submit{
+    padding: 5px 40px 5px 40px;
+    width: 30%;
+    margin-left: 35%;
+    margin-top: 10%;
+    background-color: transparent;
+    border: none;
+    box-shadow: 0px 0px 5px black;
+    border-radius: 50px 50px 50px 50px;
+    color: navy;
+    font-weight: bold;
+}
+.Submit:hover{
+    box-shadow: 0px 0px 10px black;
+    font-size: 15px;
+}
+
+.privecy-text h2{
+    margin-top: 40px;
+    font-size: 20px;
+    text-align: center;
+    color: navy;
+    font-weight: 100;
+}
+.text{
+    display: flex;
+    margin-top: 30px;
+    width: 80%;
+    margin-left: 30%;
+}
+.text h2{
+    font-size: 20px;
+    color: navy;
+}
+.login{
+    padding: 5px 30px 5px 30px;
+    margin-left: 30px;
+    background-color: transparent;
+    border: none;
+    box-shadow: 0px 0px 10px black;;
+}
+.login a{
+    text-decoration: none;
+    color: navy;
+    font-weight: bold;
+
+}
+.login:hover{
+    box-shadow: 0px 0px 15px black;
+    font-size: 15px;
+}
+.side-text1 h3{
+    font-size: 60px;
+}
+.side-text1 h3{
+    color: white;
+    text-align: center;
+    margin-right: 55%;
+    margin-top
+}
+h3{
+    margin-top: ;
+}

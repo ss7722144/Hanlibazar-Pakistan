@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main-container{
+    margin-top: 40px;
+    height: 100px;
+    width: 100%;
+    background-color: navy;
+    display: flex;
+}
+.about-heading{
+    margin-left: 33%;
+    width: 10%;
+    color: white;
+    font-size: 42px;
+}
+
+.side-arrow img{
+    height: 100px;
+}
+.side-arrow img:hover{
+    box-shadow: 0px 0px 10px white;
+}
+
+.container2{
+    display: flex;
+    background-color: lightgray;
+    margin-top: 5%;
+    justify-content: space-around;
+    height: 400px;
+}
+
+.side-text p{
+    font-size: 25px;
+    word-spacing: 3px;
+    line-height-step: 10px;
+    margin-top: 25%;
+    font-weight: bold;
+}
+
+.side-img img{
+    height: 100%;
+}
+.main-heading h2{
+    font-size: 40px;
+    width: 20%;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+.daily-offer{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.about-2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 8%;
+}
+.size4{
+    height: 400px;
+    border-radius: 0px 50px 0px 50px;
+    box-shadow: 0px 0px 5px;
+}
+.box2{
+    border-radius: 0px 50px 0px 50px;
+    height: 400px;
+}
+.box2:hover{
+    box-shadow: 0px 0px 20px;
+}
+
+.about-3{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+
+.button-size-shop{
+    margin-top: 5%;
+   margin-left: 35%;
+}
+
+.button-shop{
+    width: 30%;
+    padding: 10px;
+    margin-left: 10%;
+    box-shadow: 0px 0px 5px black;
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 50px 0px;
+}
+
+
+.button-shop:hover{
+    color: white;
+    background-color: navy;
+    
+}
+.button-shop a{
+    text-decoration: none;
+    color: black;
+}
+.button-shop a:hover{
+    color: white;
+    background-color: navy;
+    
+}
+
+.footer{
+    height: 400px;
+    width: 100%;
+    background-color: navy;
+    margin-top: 80px;
+}
+.social-icons{
+    background-color: rgb(135, 135, 226);
+    height: 80px;
+    width: auto;
+    box-shadow: 0px 0px 15px black;
+}
+.margin{
+    margin-left: 30%;
+}
+.social-icons img{
+    height: 50px;
+    color: white;
+    margin-left: 50px;
+    margin-top: 15px;
+    background-color: transparent;
+    box-shadow: 0px 0px 10px black;
+}
+.facebook{
+    background-color: transparent;
+    box-shadow: 0px 0px 10px black;
+}
+.footer-logo img{
+    height: 300px;
+    margin-left: 10%;
+}
+.footer-logo h5{
+    color: white;
+    margin-top: -60px;
+    margin-left: 15%;
+}
+.info{
+    height: 100px;
+    width: 400px;
+    margin-left: 65%;
+    margin-top: -11%;
+}
+h5{
+    color: white;
+    font-size: 20px;
+    margin-left: 8%;
+}
+.info input{
+    height: 30px;
+    margin-top: 20px;
+    width: 80%;
+    box-shadow: 0px 0px 15px white;
+    border: none;
+    background-color: transparent;
+    color: white;
+    border-radius: 50px;
+}
+.button-footer{
+    margin-top: 20px;
+    padding: 5px 15px 5px 15px ;
+    margin-left: 28%;
+    background-color: transparent;
+    box-shadow: 0px 0px 10px white;
+    border: none;
+    color: white;
+    border-radius: 10px 10px;
+
+}
+.button-footer:hover{
+    font-size: 15px;
+}
+.copyright h6{
+    margin-left: 40%;
+    color: white;
+    margin-top: 70px;
+    font-size: 15px;
+}

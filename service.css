@@ -1,0 +1,293 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.service-top{
+    height: 50px;
+    display: flex;
+
+}
+.box-top1{
+    width: 35%;
+}
+.box-top1 h2{
+    font-size: 20px;
+    margin-left: 20%;
+    margin-top: 3%;
+}
+.box-top2{
+   width: 65%;
+   background-color: navy;
+   border-radius: 50px 0px 0px 50px ;
+}
+.box-top2 h2{
+    font-size: 30px;
+    margin-left: 5%;
+    margin-top: 1%;
+    color: white;
+}
+.slide{
+    height: 400px;
+    width: 100%;
+    
+}
+.button-shop-top{
+    width: 60%;
+    margin: auto;
+    margin-top: -4%;
+ }
+ .slider-prev-shop{
+     margin-right: 80%;
+     padding: 10px;
+     background-color: transparent;
+     border-radius: 50%;
+     box-shadow: 0px 0px 20px black;
+     border: none;
+     font-weight: bold;
+     border: 0.1px dotted white;
+     cursor: pointer;
+ }
+ .slider-next-shop{
+     padding: 10px;
+     background-color: transparent;
+     border-radius: 50%;
+     box-shadow: 0px 0px 20px black;
+     border: none;
+     font-weight: bold;
+     border: 0.1px dotted white;
+     cursor: pointer;
+ }
+ .slider-prev-shop:hover{
+     color: white;
+     font-size: 15px;
+     font-weight: bolder;
+ }
+ .slider-next-shop:hover{
+     color: orange;
+     font-size: 15px;
+     font-weight: bolder;
+ }
+
+.daily-offer-heading{
+    width: 20%;
+    margin: auto;
+    margin-top: 120px;
+    font-size: 30px;
+    border: 2px solid black;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 40px;
+    text-align: center;
+}
+
+.daily-offer{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.box{
+    height: 350px;
+    width: 230px;
+    margin-top: 50px;
+    box-shadow: 0px 0px 10px black;
+    border-radius: 0px 20px;
+}
+/* .box:hover{
+    box-shadow: 0px 0px 12px black;
+} */
+.box img{
+    height: 220px;
+    width: 230px;
+    border-radius: 0px 20px 0px 0px;
+    cursor: pointer;
+}
+
+.product-name{
+    margin-top: 12px;
+    font-size: 20px;
+    text-align: center;
+}
+.product-name:hover{
+    background-color: orange;
+    color: white;
+    
+}
+.Price{
+    font-size: 25px;
+    margin-top: 10px;
+    color:navy;
+    font-weight: bold;
+    text-align: center;
+}
+
+.Price:hover{
+    color: orange;
+}
+.button1{
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 6.5%;
+    background-color: transparent;
+    box-shadow: 0px 0px 10px black;
+    border: none;
+    border-radius: 0px 50px;
+    cursor: pointer;
+    padding: 3px 0px 3px 0px ;
+}
+.button1:hover{
+    color: white;
+    background-color: navy;
+    
+}
+.box1{
+    height: 400px;
+    width: 250px;
+    margin-top: 50px;
+    box-shadow: 0px 0px 10px black;
+    border-radius: 0px 20px;
+}
+.box1 img{
+    height: 400px;
+    width: 250px;
+    border-radius: 0px 20px;
+}
+.sponsor-text{
+    font-size: 25px;
+    font-weight: bold;
+    width: 8%;
+    margin: auto;
+}
+h4{
+    margin-top: 30px;
+}
+.slider-color{
+
+}
+.slider-2{
+    width: 63.3%;
+    margin: auto;
+    box-shadow: 0px 0px 2px;
+    border-radius: 50px;
+}
+.slider-2 img{
+    height: 150px;
+    width: 800px;
+    border-radius: 50px;
+}
+.slider-2:hover{
+    box-shadow: 0px 0px 5px;
+}
+
+.button-size-shop{
+    display: flex;
+    margin-top: 5%;
+   margin-left: 10%;
+}
+
+.button-shop{
+    width: 30%;
+    padding: 10px;
+    margin-left: 10%;
+    box-shadow: 0px 0px 5px black;
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 50px 0px;
+}
+
+
+.button-shop:hover{
+    color: white;
+    background-color: navy;
+    
+}
+.button-shop a{
+    text-decoration: none;
+    color: black;
+}
+.button-shop a:hover{
+    color: white;
+    background-color: navy;
+    
+}
+
+.footer{
+    height: 400px;
+    width: 100%;
+    background-color: navy;
+    margin-top: 80px;
+}
+.social-icons{
+    background-color: rgb(135, 135, 226);
+    height: 80px;
+    width: auto;
+    box-shadow: 0px 0px 15px black;
+}
+.margin{
+    margin-left: 30%;
+}
+.social-icons img{
+    height: 50px;
+    color: white;
+    margin-left: 50px;
+    margin-top: 15px;
+    background-color: transparent;
+    box-shadow: 0px 0px 10px black;
+}
+.facebook{
+    background-color: transparent;
+    box-shadow: 0px 0px 10px black;
+}
+.footer-logo img{
+    height: 300px;
+    margin-left: 10%;
+}
+.footer-logo h5{
+    color: white;
+    margin-top: -60px;
+    margin-left: 15%;
+}
+.info{
+    height: 100px;
+    width: 400px;
+    margin-left: 65%;
+    margin-top: -11%;
+}
+h5{
+    color: white;
+    font-size: 20px;
+    margin-left: 8%;
+}
+.info input{
+    height: 30px;
+    margin-top: 20px;
+    width: 80%;
+    box-shadow: 0px 0px 15px white;
+    border: none;
+    background-color: transparent;
+    color: white;
+    border-radius: 50px;
+}
+.button-footer{
+    margin-top: 20px;
+    padding: 5px 15px 5px 15px ;
+    margin-left: 28%;
+    background-color: transparent;
+    box-shadow: 0px 0px 10px white;
+    border: none;
+    color: white;
+    border-radius: 10px 10px;
+
+}
+.button-footer:hover{
+    font-size: 15px;
+}
+.copyright h6{
+    margin-left: 40%;
+    color: white;
+    margin-top: 70px;
+    font-size: 15px;
+}
