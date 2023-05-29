@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main-container{
+    background-color: navy;
+    height: 300px;
+    width: auto;
+}
+.heading h1{
+    color: white;
+    padding-top: 0px;
+    text-align: center;
+    font-size: 100px;
+}
+.nav{
+    padding-top: 2%;
+}
+p1{
+    font-size: 25px;
+    color: white;
+    margin-left: 10%;
+}
+a{
+    text-decoration: none;
+}
+p2{
+    font-size: 25px;
+    color: white;
+    margin-left: 65%;
+}
+p1:hover{
+    background-color: white;
+    border-radius: 50px;
+    color: navy;
+    padding-left: 15px;
+    padding-right: 15px;
+    transition: 0.5s;
+}
+p2:hover{
+    background-color: white;
+    border-radius: 50px;
+    color: navy;
+    padding-left: 15px;
+    padding-right: 15px;
+    transition: 0.5s;
+}
+.perant-container{
+    height: 650px;
+    width: 70%;
+    margin: auto;
+    background-color: white;
+    margin-top: -140px;
+    box-shadow: 0px 0px 5px black;
+    border-radius: 0px 30px;
+}
+.get{
+    text-align: center;
+    font-size: 40px;
+    padding-top: 5%;
+}
+.main-container2{
+    display: flex;
+    height: 92%;
+    justify-content: center;
+}
+.form-part1{
+    width: 80%;
+}
+.form-part1 input{
+    height: 30px;
+    width: 80%;
+    margin-left: 8%;
+    margin-top: 10%;
+    box-shadow: 0px 0px 5px black;
+    border: none;
+    padding-left: 10px;
+}
+.margin input{
+    height: 120px;
+}
+.button button{
+    margin-top: 10%;
+    width: 50%;
+    height: 35px;
+    margin-left: 25%;
+    background-color: transparent;
+    box-shadow: 0px 0px 5px black;
+    border: none;
+}
